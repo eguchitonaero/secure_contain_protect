@@ -14,10 +14,8 @@ max-cards: 3
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1928 and month = 2 : The current bourgeois-right government has fallen. The next elections are slated for May of this year. ?]
-
-- @party
-- @govt
+- @inter
+- @global
 - #advisor
 - @shuffle_leadership_pinned
 
@@ -37,10 +35,8 @@ max-cards: 4
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1928 and month = 2 : The current bourgeois-right government has fallen. The next elections are slated for May of this year. ?]
-
-- @party
-- @govt
+- @inter
+- @global
 - #advisor
 - @shuffle_leadership_pinned
 
@@ -52,9 +48,8 @@ is-deck: true
 
 - #party_affairs
 
-@govt
-title: Government Affairs
-view-if: time >= 6
+@global
+title: Global Affairs
 card-image: img/reichstag_2.jpg
 is-deck: true
 

@@ -41,16 +41,16 @@ max-cards: 4
 - @shuffle_leadership_pinned
 
 
-@party
-title: Party Affairs
+@inter
+title: Internal Affairs
 card-image: img/Vorwaerts_nr_1.png
 is-deck: true
 
-- #party_affairs
+- #inter_affairs
 
 @global
 title: Global Affairs
 card-image: img/reichstag_2.jpg
 is-deck: true
 
-- #govt_affairs
+- #global_affairs

@@ -1,0 +1,9 @@
+title: September 11th 2001
+subtitle: A terrorist attack on the americans.
+on-arrival: resources += 0
+tags: event
+view-if: year = 2001 and month = 9
+priority: 1
+max-visits: 1
+
+Rest in peace.

@@ -13,5 +13,5 @@ With the ever growing reach of the O5 Council they have also identified that the
 - @mourn: May those who passed away because of this tragic event rest in peace.
 
 @mourn
-on-arrival: exposure -= 30; chaos_insurgency += 15; chaos_insurgency_strength += 0.1; 911_seen = 1
+on-arrival: exposure -= 30; chaos_insurgency += 15; chaos_insurgency_strength += 0.1;
 

@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= Secure Contain Protect
 
 @start_menu_2
 
@@ -613,14 +613,17 @@ For more information on the politics and government of the German Republic, see 
 - @1928_custom: Customize difficulty settings
 
 @1928_easy
+view-if: resources >= 1000
 on-arrival: difficulty = -1; resources = 4; dues = 3; starting_rb_strength = 2500; rb_strength = 2500; left_dissent = 10; kpd_relation = 29; z_relation = 54; dvp_relation = 49; starting_budget = 5; budget = 5; hand_size = 4; starting_dissent = 0; starting_relations = 0;
 go-to: 1928_main
 
 @1928_hard
+view-if: resources >= 1000
 on-arrival: difficulty = 1; resources = 0; starting_resources = 0; dues = 1; starting_rb_strength = 1000; rb_strength = 1000; reformist_dissent = 25; left_dissent = 30; labor_dissent = 25; center_dissent = 25; z_relation = 41; kpd_relation = 16; dvp_relation = 31; starting_budget = 3; budget = 3; discard_disabled = 1; starting_dissent = 2; starting_relations = 2;
 go-to: 1928_main
 
 @1928_historical
+view-if: resources >= 1000
 subtitle: Saving, loading, and polls will be disabled. [? if not achievement_game_completed: Not recommended for a first playthrough. ?]
 on-arrival: {!
 Q.hand_size = 3;
@@ -648,6 +651,7 @@ this.state.disableSaves = true;
 go-to: 1928_main
 
 @1928_custom
+view-if: resources >= 1000
 go-to: custom_difficulty
 
 @1928_main
@@ -655,10 +659,10 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
 
-= 1928
+= 2000
 
-It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
+It is a dark time for Humanity and the Foundation. After a period of stability, the foundation faced a powerful antimemetic anomaly, which wiped all existing information about other SCPs which also resulted in their release, the Anomalies that was once contained are now roaming, scattered around the globe.
 
-Now, the task of Social Democracy is to prepare for the next election. The bourgeois-right government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a socialist majority.
+The Anomalies still remain familiar albeit with vacuous information, so, other group of interest may sieze this period of instability to pursue their own interests. The 05 Council have appointed its top site directors to rebuild, establish and oversee sites, we are one of them, although we're at the bottom of the list so we have to make use of what we have.
 
-
+Now, the task of the Foundation, our task is to **SECURE** the anomalies, **CONTAIN** them and **PROTECT** humanity

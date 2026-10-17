@@ -61,6 +61,28 @@ Q.dues = 2;
 Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
+// foundation personnel
+Q.researchers = 2;
+Q.security = 10;
+Q.class_d = 5;
+
+// the state of the foundation
+Q.security_loyalty = 0.7;
+Q.researchers_loyalty =  .6;
+Q.security_strength = 1;
+Q.class_d_strength = 0;
+Q.class_d_riot = 0.25;
+
+// organisations
+Q.chaos_insurgency = 20;
+Q.chaos_insurgency_strength = 0.8;
+// 0 to 10
+Q.ci_raid = 3;
+
+// relations
+Q.ethics_commitee_relation = 70;
+Q.council_relation = 50;
+
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];
 // should this be normalized to 100%?

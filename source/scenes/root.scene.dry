@@ -62,16 +62,16 @@ Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
 // foundation personnel
-Q.researchers = 2;
-Q.security = 10;
+Q.researchers = 0.5;
+Q.security = 2;
 Q.class_d = 5;
 
 // the state of the foundation
 Q.security_loyalty = 0.7;
 Q.researchers_loyalty =  .6;
-Q.security_strength = 1;
-Q.class_d_strength = 0;
-Q.class_d_riot = 0.25;
+Q.security_strength = 1.2;
+Q.class_d_strength = 0.2;
+Q.class_d_riot = 0.6;
 
 // organisations
 Q.chaos_insurgency = 20;

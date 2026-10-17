@@ -1,0 +1,7 @@
+
+# how many people willing to riot in percent
+(0..0.09) {!<span style="color: #9E9E9E;">In Check</span>!}
+(0.10..0.24) {!<span style="color: #730000;">Tensed</span>!}
+(0.25..0.39) {!<span style="color: #FFAE00;">Aggressive</span>!}
+(0.40..0.59) {!<span style="color: #FF5500;">Riot Brewing</span>!}
+(0.60..) {!<span style="color: #FF0000;">Riot</span>!}

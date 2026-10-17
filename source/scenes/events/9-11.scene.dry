@@ -2,8 +2,17 @@ title: September 11th 2001
 subtitle: A terrorist attack on the americans.
 on-arrival: resources += 0
 tags: event
-view-if: year = 2001 and month = 9
+// month 5 year 2000 for testing
+view-if: year = 2000 and month = 5
 priority: 1
 max-visits: 1
 
-Rest in peace.
+The Twin Towers of the World Trade Center, The Pentagon, and The U.S Capitol have been hit by hijacked american commercial airplanes.
+Several organizations have work together to identify the attackers, the attackers were a part of a terrorist group called "Al-Qaeda" led by Osama bin Laden.
+With the ever growing reach of the O5 Council they have also identified that the Chaos Insurgents are also involved in this attack, for reasons yet to be identified.
+
+- @mourn: May those who passed away because of this tragic event rest in peace.
+
+@mourn
+on-arrival: exposure -= 30; chaos_insurgency += 15; chaos_insurgency_strength += 0.1; 911_seen = 1
+

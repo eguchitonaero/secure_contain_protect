@@ -1,0 +1,29 @@
+title: International Relations
+new-page: true
+is-card: true
+view-if: international_relations_timer <= 0
+on-arrival: month_actions += 1; international_relations_timer += 4
+tags: global_affairs
+
+= International Relations
+
+- @america: Expand our nascent reach towards America, our home country.
+- @un: Expand our nascent reach towards the United Nations.
+- @eu: Expand our nascent reach towards the European Union.
+- @root: The SCP Foundation can stand alone for now
+- @easy_discard
+
+@america
+on-arrival: resources -= 1; america_relation += 1
+
+We decided to approach America.
+
+@un
+on-arrival: resources -= 1; un_relation += 1
+
+We decided to approach the United Nations.
+
+@eu
+on-arrival: resources -= 1; eu_relation += 1
+
+We decided to approach the European Union.

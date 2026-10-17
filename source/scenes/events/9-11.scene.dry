@@ -2,7 +2,6 @@ title: September 11th 2001
 subtitle: A terrorist attack on the americans.
 on-arrival: resources += 0
 tags: event
-// month 5 year 2000 for testing
 view-if: year = 2000 and month = 5
 priority: 1
 max-visits: 1

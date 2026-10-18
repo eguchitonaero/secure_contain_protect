@@ -1,6 +1,6 @@
 title: September 11th 2001
 subtitle: A terrorist attack on the americans.
-on-arrival: 911_seen = 1
+on-arrival: 911 = 1
 tags: event
 view-if: year = 2001 and month = 9
 priority: -1

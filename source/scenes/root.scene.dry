@@ -49,12 +49,12 @@ Q.hindenburg_enabled = 0;
 
 
 
-// party resources
-Q.starting_resources = 2;
-Q.resources = 2;
-// party dues - fundraising income
-Q.starting_dues = 2;
-Q.dues = 2;
+// money
+Q.resources = 8;
+Q.funds = 5
+// income
+Q.income = 5;
+Q.funds_income = 3;
 
 // the state of the party
 // overall dissent reduces every increase in party support.

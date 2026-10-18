@@ -86,8 +86,12 @@ Q.ci_raid = 3;
 Q.ethics_commitee_relation = 70;
 Q.council_relation = 50;
 
-// events seen
+// events
+Q.goc_formed = 0;
 Q.911_seen = 0;
+
+// scp stuff
+anomaly_urgency = 0;
 
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];

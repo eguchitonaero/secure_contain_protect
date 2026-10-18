@@ -10,22 +10,26 @@ The Twin Towers of the World Trade Center, The Pentagon, and The U.S Capitol hav
 
 Several american organizations like the FBI and the CIA have work together to identify the attackers, the attackers were a part of a terrorist group called "Al-Qaeda" led by Osama bin Laden.
 
-The O5 Council they have also identified that the Chaos Insurgents are also involved in this attack, for reasons unknown.a
+The O5 Council they have also identified that the Chaos Insurgents are also involved in this attack but their motives unknown.
 
 - @mourn: May those who passed away because of this tragic event rest in peace.
 
 @mourn
 on-arrival: chaos_insurgency += 15; chaos_insurgency_strength += 0.1;
 
-After this tragic event, the United Nations have enacted multiple resolutions and have founded a Counter-Terrorism Committee (CTC) to prevent this from happening again.s".
+After this tragic event, the United Nations have enacted multiple resolutions and have founded a Counter-Terrorism Committee (CTC) to prevent this from happening again.
 
-The United Nations and The United States have worked together along with 108 other nations to form The Global Coalition Against Daesh (ISIS).
+The United Nations and The United States have worked together along with 90 other nations to form The Global Coalition Against Daesh (ISIS).
 
-- @goc: The United Nations have also founded an organization called "The United Nations Global Occult Coalition" or "UNGOC".
+- @goc: The United Nations along with 108 occult organizations have also founded "The United Nations Global Occult Coalition" or "UNGOC".
 
 @goc
 view-if: anomaly_urgency >= 50
 on-arrival: goc_formed = 1
 
-The United Nations Global Occult Coalition is founded to police or neutralize paranormal anomalies. Before the antimemetic wipe, the UNGOC was already formed in 1945, The Foundation have a complex relationship with them due to our goal not aligning with them, we use to call them the "Bookburners" because they try to eliminate all anomalies.
+The United Nations Global Occult Coalition is founded to police or neutralize paranormal anomalies.
+
+Before the antimemetic wipe, the UNGOC or "Bookburners" was already formed in 1945 after the Seventh Occult War, The Foundation have a complex relationship with them due to our goal not aligning with them, nonetheless, they would be of aid to us in helping us conceal anomalies from the public.
+
+
 

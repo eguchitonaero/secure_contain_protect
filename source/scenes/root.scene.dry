@@ -61,6 +61,9 @@ Q.dues = 2;
 Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
+// foundation
+Q.exposure = 0;
+
 // foundation personnel
 Q.researchers = 0.5;
 Q.security = 2;
@@ -82,6 +85,9 @@ Q.ci_raid = 3;
 // relations
 Q.ethics_commitee_relation = 70;
 Q.council_relation = 50;
+
+// events seen
+Q.911_seen = 0;
 
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];

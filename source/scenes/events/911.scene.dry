@@ -1,9 +1,9 @@
 title: September 11th 2001
 subtitle: A terrorist attack on the americans.
-on-arrival: resources += 0
+on-arrival: 911_seen = 1
 tags: event
-view-if: year = 2000 and month = 5
-priority: 1
+view-if: year = 2001 and month = 9
+priority: -1
 max-visits: 1
 
 The Twin Towers of the World Trade Center, The Pentagon, and The U.S Capitol have been hit by hijacked american commercial airplanes.
@@ -15,14 +15,17 @@ The O5 Council they have also identified that the Chaos Insurgents are also invo
 - @mourn: May those who passed away because of this tragic event rest in peace.
 
 @mourn
-on-arrival: exposure -= 30; chaos_insurgency += 15; chaos_insurgency_strength += 0.1;
+on-arrival: chaos_insurgency += 15; chaos_insurgency_strength += 0.1;
 
-After this tragic event, the United Nations have enacted multiple resolutions and have founded a Counter-Terrorism Committee (CTC) to prevent this from happening again.
+After this tragic event, the United Nations have enacted multiple resolutions and have founded a Counter-Terrorism Committee (CTC) to prevent this from happening again.s".
 
-The United Nations and The United States have worked together along with 90 other nations to form The Global Coalition Against Daesh (ISIS).
+The United Nations and The United States have worked together along with 108 other nations to form The Global Coalition Against Daesh (ISIS).
 
-- @WWWWW: Form The Global Occult Coalition alongside them.
+- @goc: The United Nations have also founded an organization called "The United Nations Global Occult Coalition" or "UNGOC".
 
-@WWWWW
-subtitle: PLEASE PLAYER I HOPE YOU HAVE ENOUGH RELATIONSHIP TO FORM IT WITH THEM
-on-arrival: resource += 0
+@goc
+view-if: anomaly_urgency >= 50
+on-arrival: goc_formed = 1
+
+The United Nations Global Occult Coalition is founded to police or neutralize paranormal anomalies. Before the antimemetic wipe, the UNGOC was already formed in 1945, The Foundation have a complex relationship with them due to our goal not aligning with them, we use to call them the "Bookburners" because they try to eliminate all anomalies.
+

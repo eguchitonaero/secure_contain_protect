@@ -17,16 +17,16 @@ It is our task to rebuild our former influence, what organization should we prio
 - @easy_discard
 
 @america
-on-arrival: resources -= 1; america_relation += 1
+on-arrival: america_relation += 1
 
 We decided to approach America.
 
 @un
-on-arrival: resources -= 1; un_relation += 1
+on-arrival: un_relation += 1
 
 We decided to approach the United Nations.
 
 @eu
-on-arrival: resources -= 1; eu_relation += 1
+on-arrival: eu_relation += 1
 
 We decided to approach the European Union.

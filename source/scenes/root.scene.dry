@@ -91,7 +91,7 @@ Q.goc_formed = 0;
 Q.911 = 0;
 
 // scp stuff
-anomaly_urgency = 0;
+Q.anomaly_urgency = 0;
 
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];

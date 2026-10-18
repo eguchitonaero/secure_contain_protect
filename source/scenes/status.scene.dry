@@ -18,6 +18,8 @@ if (Q.economic_growth) {
 
 [+ month : month +] [+ year +]
 
+Status: [+ exposure : exposure +]
+
 Resources available: [+ resources +]
 
 Class-D: [+ class_d +]k

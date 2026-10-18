@@ -36,6 +36,6 @@ We have secured criminals convited of serious crimes as Class-D personnels from 
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 1; class_d += 2; class_d_strength += 0.05; class_d_riot += 0.25; exposure += 5; ethics_commitee_relation -= 10; ethics_commitee_relation -= 5 if resources <= 1; ethics_commitee_relation += 3 if inmate_timer >= 1
+on-arrival: resources -= 1; class_d += 2; class_d_strength += 0.05; class_d_riot += 0.25; exposure += 5; ethics_commitee_relation -= 10
 
 We have activated protocol 12 to secure NHIs as Class-D personnels. Whether we did or did not do this in time of duress, the Ethics Committee are displeased and reviewing our actions.

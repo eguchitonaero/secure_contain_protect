@@ -88,7 +88,7 @@ Q.council_relation = 50;
 
 // events
 Q.goc_formed = 0;
-Q.911_seen = 0;
+Q.911 = 0;
 
 // scp stuff
 anomaly_urgency = 0;

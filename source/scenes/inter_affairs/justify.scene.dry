@@ -1,0 +1,23 @@
+title: Justifying our actions
+new-page: true
+view-if: ethics_timer <= 0 and ethics_commitee_relation <= 60
+on-arrival: month_actions += 1; ethics_timer += 6
+is-card: true
+card-image: img/documents.jpg
+tags: inter_affairs
+
+= Justifying our actions
+
+Our recent actions has been questioned by the Ethics Committee whether our actions were following the frameworks in the code of ethics.
+
+- @detailed: Provide detailed accounts of our actions.
+- @root: Let's do this later.
+- @easy_discard
+
+@detailed
+subtitle: -2 resources
+choose-if: resources >= 2
+unavailable-subtitle: Not enough resources.
+on-arrival: resources -= 2; ethics_commitee_relation += 20
+
+We have provided detailed accounts that our actions were justified and within the framework of the code of ethics. The ethics committee is satisfied.

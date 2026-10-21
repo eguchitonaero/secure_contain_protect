@@ -83,7 +83,7 @@ Q.chaos_insurgency_strength = 0.8;
 Q.ci_raid = 3;
 
 // relations
-Q.ethics_commitee_relation = 70;
+Q.ethics_committee_relation = 70;
 Q.council_relation = 50;
 
 // events

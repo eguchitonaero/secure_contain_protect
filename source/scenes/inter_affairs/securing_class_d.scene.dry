@@ -28,7 +28,7 @@ We have secured death row inmates as Class-D personnels from various high securi
 subtitle: -2 resources
 choose-if: resources >= 2
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 2; class_d += 1; class_d_strength += 0.05; class_d_riot += 0.1; exposure += 2; ethics_commitee_relation -= 3
+on-arrival: resources -= 2; class_d += 1; class_d_strength += 0.05; class_d_riot += 0.1; exposure += 2; ethics_committee_relation -= 3
 
 We have secured criminals convited of serious crimes as Class-D personnels from various prisons.
 

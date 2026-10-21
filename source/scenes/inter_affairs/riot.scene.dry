@@ -15,4 +15,4 @@ class d riot class d riot
 - @easy_discard
 
 @curb
-on-arrival: security -= ((security*security_strength*security_loyalty)/2) and class_d -= class_d*class_d_strength*class_d_riot if 0 < (security*security_strength*security_loyalty - class_d_strength*class_d_riot*class_d)
+on-arrival: ethics_committee_relation -= 100

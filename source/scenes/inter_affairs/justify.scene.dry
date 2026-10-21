@@ -18,6 +18,6 @@ Our recent actions has been questioned by the Ethics Committee whether our actio
 subtitle: -3 resources
 choose-if: resources >= 3
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 2; ethics_commitee_relation += 20
+on-arrival: resources -= 2; ethics_committee_relation += 20
 
 We have provided detailed accounts that our actions were justified and within the framework of the code of ethics. The ethics committee is satisfied.

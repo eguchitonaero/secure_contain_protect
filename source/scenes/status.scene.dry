@@ -30,6 +30,10 @@ Class-D: [+ class_d +]k
 
 Class-D status: [+ class_d_riot : class_d_riot +]
 
+= Ethics Committee
+
+Ethics Committee: [+ ethics_committee_relation : relationships +]
+
 @politics
 
 = Inter-party Relations

@@ -1,0 +1,9 @@
+title: There is no antimemetic division.
+subtitle: Bro said antimemetic division what's blud talm bout bruh
+on-arrival: antimeme_division_seen = 1
+tags: event
+view-if: year = 2000 and month = 3
+priority: -1
+max-visits: 1
+
+You feel like you just had an important conversation with someone, but the more you try to remember it the more your head hurts, you were zoned out trying to remember what it was and the person you were talking to said, "Why are you zoned out? There's no such thing as an antimemetic division.""

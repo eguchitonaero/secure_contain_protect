@@ -64,7 +64,7 @@ Ethics Committee: [+ ethics_committee_relation : relationships +]
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
 
-@militaries
+@paramilitaries
 on-arrival: {!
 if (Q.rb_strength) {
     Q.rb_strength_2 = Q.rb_strength.toFixed(1);

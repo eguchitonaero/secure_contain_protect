@@ -20,6 +20,7 @@ title: Increase funding for the Scientific Department
 choose-if: advisor_action_timer <= 0 and spd_in_government = 1
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if not spd_in_government: The SPD is not in government. ?]
 on-arrival: advisor_action_timer = 6;  += 5; scidep_funds +=1
+
 We have
 
 @research

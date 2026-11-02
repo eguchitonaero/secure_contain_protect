@@ -19,7 +19,7 @@ It currently is the most critical department considering the lost of research ab
 title: Increase funding for the Scientific Department
 choose-if: scidep_action_timer = 0 and funds > 0
 unavailable-subtitle: [? if scidep_action_timer > 0 : [+ scidep_action_timer +] months before next department action. ?][? if funds > 0 and scidep_action_timer = 0: Not enough funds. ?]
-on-arrival: scidep_action_timer = 6;  += 5; scidep_funds +=1; funds -= 1
+on-arrival: scidep_action_timer = 6; scidep_funds +=1; funds -= 1
 
 We have
 

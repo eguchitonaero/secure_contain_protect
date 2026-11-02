@@ -17,25 +17,26 @@ It currently is the most critical department considering the lost of research ab
 
 @fund
 title: Increase funding for the Scientific Department
-choose-if: advisor_action_timer <= 0 and spd_in_government = 1
-unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if not spd_in_government: The SPD is not in government. ?]
-on-arrival: advisor_action_timer = 6;  += 5; scidep_funds +=1
+choose-if: scidep_action_timer = 0 and funds > 0
+unavailable-subtitle: [? if scidep_action_timer > 0 : [+ scidep_action_timer +] months before next department action. ?][? if funds > 0 and scided_action_timer = 0: Not enough funds. ?]
+on-arrival: scidep_action_timer = 6;  += 5; scidep_funds +=1; funds -= 1
 
 We have
 
 @research
 title: Continue researching whatever the wlekel we're researching. (Does absolutely nothing yet)
-unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before the next department action. ?]
-choose-if: advisor_action_timer = 0
-on-arrival: advisor_action_timer = 6
+unavailable-subtitle: [? if scidep_action_timer > 0 : [+ scidep_action_timer +] months before the next department action. ?]
+choose-if: scidep_action_timer = 0
+on-arrival: scidep_action_timer = 6
+
 We have researched. 
 
 @fund_niche
 title: Fund
 subtitle: pls click me
-unavailable-subtitle:[? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next department action. ?][? if resources <= 0 and advisor_action_timer = 0 : Not enough resources.]
+unavailable-subtitle:[? if scidep_action_timer > 0 : [+ scidep_action_timer +] months before next department action. ?][? if resources <= 0 and scidep_action_timer = 0 : Not enough resources.]
 view-if: antimeme_division_scene = 1
-choose-if: advisor_action_timer = 0 and resources >= 1                                                                              
-on-arrival: advisor_action_timer = 6; antimeme_funds =+ 1
+choose-if: scidep_action_timer = 0 and resources >= 1                                                                              
+on-arrival: scidep_action_timer = 6; antimeme_funds =+ 1
 
 We have

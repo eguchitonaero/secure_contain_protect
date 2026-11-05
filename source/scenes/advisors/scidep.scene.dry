@@ -8,7 +8,7 @@ new-page: true
 
 The Scientific Department is one of the main department of the SCP Foundation and is responsible for researching, interacting, and testing anomalous entities within Foundation perimeters.
 
-It currently is the most critical department considering the lost of research about anomalous entities. (Library of Alexandria reference :shock:)
+It currently is the most critical department considering the lost of research about anomalous entities.
 
 - @fund
 - @research
@@ -21,22 +21,21 @@ choose-if: scidep_action_timer = 0 and funds > 0
 unavailable-subtitle: [? if scidep_action_timer > 0 : [+ scidep_action_timer +] months before next department action. ?][? if funds > 0 and scidep_action_timer = 0: Not enough funds. ?]
 on-arrival: scidep_action_timer = 6; scidep_funds +=1; funds -= 1
 
-We have
+We have increased fundings towards the Scientific Department
 
 @research
-title: Continue researching whatever the wlekel we're researching. (Does absolutely nothing yet)
+title: Exert effort into continuing our research
 unavailable-subtitle: [? if scidep_action_timer > 0 : [+ scidep_action_timer +] months before the next department action. ?]
 choose-if: scidep_action_timer = 0
-on-arrival: scidep_action_timer = 6
+on-arrival: scidep_action_timer = 6; research += 1
 
-We have researched. 
+We have put effort into continuing and improving our research.
 
 @fund_niche
-title: Fund
-subtitle: pls click me
+title: Increase funding for a useless branch in the Scientific Department
 unavailable-subtitle:[? if scidep_action_timer > 0 : [+ scidep_action_timer +] months before next department action. ?][? if funds <= 0 and scidep_action_timer = 0 : Not enough funds. ?]
 view-if: antimeme_division_scene = 1
 choose-if: scidep_action_timer = 0 and funds >= 1                                                                              
 on-arrival: scidep_action_timer = 6; antimeme_funds += 1; funds -= 1
 
-We have
+We have put focus on funding this useless branch in the Scientific Department, however, the other departments are not pleased with us funding this useless branch.

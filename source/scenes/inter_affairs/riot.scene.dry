@@ -1,9 +1,8 @@
 title: Confronting Class-Ds
 new-page: true
 is-card: true
-view-if: class_d_riot >= 60
-on-arrival: month_actions += 1
-frequency: 100
+view-if: class_d_riot >= 60; confront_timer = 0
+on-arrival: month_actions += 1; confront_timer = 3
 tags: inter_affairs
 
 = Confronting Class-Ds
@@ -16,7 +15,6 @@ How should we address the growing mob of Class-D personnels?
 
 @curb
 subtitle: -2 resources
-view-if: class_d_riot >= 0.6
 choose-if: resources >= 2
 unavailable-subtitle: Not enough resources.
 on-arrival: resources -= 2; class_d_riot -= 0.15; ethics_committee_relation -= 3

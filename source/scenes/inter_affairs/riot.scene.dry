@@ -8,11 +8,17 @@ tags: inter_affairs
 
 = Confronting Class-Ds
 
-class d riot class d riot
+How should we address the growing mob of Class-D personnels?
 
-- @curb: kill kill kill kill
-- @root: Our security personnels can't handle the riot for now.
+- @curb: Curb the mob of Class-Ds causing trouble.
+- @root: We either don't want to or cannot do anything about them right now.
 - @easy_discard
 
 @curb
-on-arrival: ethics_committee_relation -= 100
+subtitle: -2 resources
+view-if: class_d_riot >= 0.6
+choose-if: resources >= 2
+unavailable-subtitle: Not enough resources.
+on-arrival: resources -= 2; class_d_riot -= 0.15; ethics_committee_relation -= 3
+
+We have utilize our security personnels to deal with the Class-Ds, however, the ethics committee condemns our actions, saying it was not the appropriate response towards the Class-Ds.

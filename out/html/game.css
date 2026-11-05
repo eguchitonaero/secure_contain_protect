@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'SCPfont';
+  src: url('fonts/Sans-Normalcy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   --bg-color: #f3f3e3;
   --border-color: #000;
@@ -12,7 +20,7 @@ body {
   --tab-hover-color: #ececec;
   --card-border-color: #ccc; 
   --card-bg-color: #ddd; 
-  font-family: "Minion Pro", Georgia, serif;
+  font-family: "SCPfont", Georgia, serif;
   background-color: var(--bg-color);
   padding: 0;
   line-height: 155%;
@@ -240,7 +248,7 @@ blockquote + blockquote.attribution {
     margin-right: -0.6em;
 }
 .tab_button {
-    font-family: "Minion Pro", Georgia, serif;
+    font-family: "SCPfont", Georgia, serif;
     background-color: var(--tab-color);
     color: var(--text-color);
     /*float: left;*/

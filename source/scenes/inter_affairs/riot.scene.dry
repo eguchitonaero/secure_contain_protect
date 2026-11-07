@@ -18,6 +18,6 @@ How should we address the growing mob of Class-D personnels?
 subtitle: -2 resources
 choose-if: resources >= 2
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 2; class_d_riot -= 0.15; ethics_committee_relation -= 3
+on-arrival: class_d -= class_d_riot*class_d*0.8; resources -= 2; class_d_riot -= 0.15; ethics_committee_relation -= 3;
 
 We have utilize our security personnels to deal with the Class-Ds, however, the ethics committee condemns our actions, saying it was not the appropriate response towards the Class-Ds.

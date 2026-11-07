@@ -1,7 +1,7 @@
 title: Confronting Class-Ds
 new-page: true
 is-card: true
-view-if: class_d_riot >= 60 and confront_timer = 0
+view-if: class_d_riot >= .6 and confront_timer = 0
 card-image: img/class_d.webp
 on-arrival: month_actions += 1; confront_timer = 3
 tags: inter_affairs

@@ -43,14 +43,14 @@ max-cards: 4
 
 @inter
 title: Internal Affairs
-card-image: img/Vorwaerts_nr_1.png
+card-image: img/scp.png
 is-deck: true
 
 - #inter_affairs
 
-@global
-title: Global Affairs
-card-image: img/reichstag_2.jpg
+@paramilitary
+title: Paramilitary Affairs
+card-image: img/mtf.webp
 is-deck: true
 
-- #global_affairs
+- #paramilitary_affairs

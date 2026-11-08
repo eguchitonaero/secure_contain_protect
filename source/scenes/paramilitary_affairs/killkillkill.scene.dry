@@ -1,0 +1,20 @@
+title: kill
+new-page: true
+view-if: ethics_committee_relation >= 5 and kill_timer = 0
+on-arrival: month_actions += 1; kill_timer += 3;
+is-card: true
+tags: paramilitary_affairs
+
+= kill
+
+do we engage in combat with the ethics committe
+  
+- @yes: yes
+- @root: hell nah
+- @easy_discard
+
+@yes
+subtitle: -3 resources
+choose-if: resources >= 3
+unavailable-subtitle: Not enough resources.
+on-arrival: resources -= 3

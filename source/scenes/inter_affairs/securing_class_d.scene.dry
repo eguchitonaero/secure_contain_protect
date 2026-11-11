@@ -1,6 +1,6 @@
 title: Securing Class-Ds
 new-page: true
-on-arrival: month_actions += 1
+on-arrival: actions += 1
 is-card: true
 card-image: img/cdcell.webp
 frequency: 100

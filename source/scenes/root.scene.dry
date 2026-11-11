@@ -23,6 +23,7 @@ Q.started = 1;
 Q.time = 1;
 Q.year = 2000;
 Q.month = 1;
+Q.half = 1;
 // how many actions have been taken this month?
 Q.actions = 0;
 

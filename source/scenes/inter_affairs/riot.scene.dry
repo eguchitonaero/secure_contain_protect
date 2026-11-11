@@ -1,9 +1,9 @@
 title: Confronting Class-Ds
 new-page: true
 view-if: class_d_riot >= 0.60 and confront_timer = 0
-on-arrival: actions += 1; confront_timer += 3;
+on-arrival: actions += 1; confront_timer += 2
 is-card: true
-card-image: img/class_d.webp
+card-image: img/cert.jpg
 tags: inter_affairs
 
 = Confronting Class-Ds

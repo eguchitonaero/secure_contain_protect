@@ -8,6 +8,9 @@ if (Q.unemployed) {
 if (Q.inflation) {
     Q.inflation_2 = Q.inflation.toFixed(1);
 }
+if (Q.class_d) {
+    Q.class_d_2 = Q.class_d.toFixed(1);
+}
 Q.economic_growth_2 = '0';
 if (Q.economic_growth) {
     Q.economic_growth_2 = Q.economic_growth.toFixed(1);
@@ -26,7 +29,7 @@ Foundation funding: [+ funds +]
 
 = Class-D
 
-Class-D: [+ class_d +]k
+Class-D: [+ class_d_2 +]k
 
 Class-D status: [+ class_d_riot : class_d_riot +]
 

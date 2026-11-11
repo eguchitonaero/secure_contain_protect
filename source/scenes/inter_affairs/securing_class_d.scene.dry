@@ -20,7 +20,7 @@ Regardless of violating ethics and basic human rights, The site has no choice bu
 subtitle: -2 resources
 choose-if: resources >= 2 and inmate_timer <= 0
 unavailable-subtitle: [? if resources <= 1 : Not enough resources. ?][? if inmate_timer >= 1 : There are currently no death row inmates we could secure. ?]
-on-arrival: resources -= 2; inmate_timer += 2; class_d += 0.2; exposure += 1
+on-arrival: resources -= 2; inmate_timer += 3; class_d += 0.2; exposure += 1
 
 We have secured death row inmates as Class-D personnels from various high security prisons.
 

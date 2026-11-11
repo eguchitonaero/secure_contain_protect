@@ -103,16 +103,12 @@ if (Q.actions >= 1) {
     Q.time += 1;
     Q.actions = 0;
     Q.half += 1;
-    if (Q.half >= 3) {
-        Q.half = 1;
-        Q.month += 1;
         if (Q.month >= 13) {
             Q.month = 1;
             Q.year += 1;
             Q.resources += income;
             Q.funds += funds_income;
         }
-    }
     // decrement timers
     for (timer of Q.timers) {
         if (Q[timer+'_timer'] && Q[timer+'_timer'] > 0) {

@@ -16,7 +16,7 @@ if (Q.economic_growth) {
 
 = Status
 
-[+ month : month +] [+ year +]
+[+ half : half +] half of [+ month : month +] [+ year +]
 
 Secrecy: [+ exposure : exposure +]
 

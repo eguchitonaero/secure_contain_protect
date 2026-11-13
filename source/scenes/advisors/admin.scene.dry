@@ -7,8 +7,8 @@ new-page: true
 
 Is this even canon?
 
-- @advance
-- @advance2
+- @advance: month
+- @advance2: year
 - @root: Return to main
 
 @advance

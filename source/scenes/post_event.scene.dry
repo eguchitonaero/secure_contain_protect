@@ -100,6 +100,7 @@ if (Q.dissent < 0) {
 
 // 1. update dates
 if (Q.actions >= 1) {
+    Q.anomaly_urgency += 1;
     Q.time += 1;
     Q.actions = 0;
     Q.half += 1;

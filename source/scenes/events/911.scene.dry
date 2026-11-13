@@ -1,6 +1,7 @@
 title: September 11th 2001
 subtitle: A terrorist attack on the americans.
-on-arrival: alqaeda = 1
+on-arrival: alqaeda = 1;
+on-departure: anomaly_urgency -= 10
 tags: event
 view-if: year = 2001 and month = 9
 priority: -1
@@ -25,7 +26,7 @@ The United Nations and The United States have worked together along with 90 othe
 
 @goc
 view-if: anomaly_urgency >= 50
-on-arrival: goc_formed = 1
+on-arrival: goc_formed = 1; anomaly_urgency += 10
 
 The United Nations Global Occult Coalition is founded to police or neutralize paranormal anomalies.
 

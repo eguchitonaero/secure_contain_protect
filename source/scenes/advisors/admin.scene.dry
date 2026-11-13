@@ -1,0 +1,18 @@
+title: The Administrator
+is-pinned-card: true 
+tags: advisor
+new-page: true
+
+= The Administrator
+
+Is this even canon?
+
+- @advance
+- @advance2
+- @root: Return to main
+
+@advance
+on-arrival: month += 2
+
+@advance2
+on-arrival: year += 1

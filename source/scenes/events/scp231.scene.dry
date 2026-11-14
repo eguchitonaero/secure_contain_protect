@@ -1,0 +1,25 @@
+title: SCP-231
+subtitle: Requesting Class-D personnels
+tags: event
+view-if: month = 7 and year = 2000 and half = 2
+priority: 1
+max-visits: 1
+
+Site-19 is requesting other sites for class-d personnels for the 110-Montauk Procedure to keep SCP-231-7 contained, because their current class-d personnels aren't qualified enough for the sensitive procedure and poses great risk for a containment breach to occur.
+
+should we propose our class-ds?
+  
+- @propose: They could use some of our class-ds.
+- @perhaps: Perhaps we could renew the 110-Montauk Procedure?
+- @no: We either can't or don't want to help them right now.
+
+@no
+
+@propose
+subtitle: -2 resources, and -20 class_ds
+unavailable-subtitle: Not enough resources.
+choose-if: resources >= 2
+on-arrival: class_d -= 0.02; resources -= 2
+
+@propose
+view-if: scidep_funds >= 4

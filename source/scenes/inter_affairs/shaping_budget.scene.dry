@@ -1,0 +1,14 @@
+title: Shaping the Budget
+new-page: true
+is-card: true
+face-image: img/financediv.webp
+view-if: shaping_budget_timer <= 0
+on-arrival: actions += 1; shaping_budget_timer += 12
+tags: inter_affairs
+
+= Shaping the Budget
+
+We have more autonomy and control on our internal affairs due to the ongoing crisis, we can shape the budget and fund more important sectors to aide us.
+
+- @root: The budget is fine as is right now.
+- @easy_discard

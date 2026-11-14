@@ -511,8 +511,9 @@ Q.n_advisors = 3;
 // timer - this decrements by 1 every turn, and is set to 5 whenever an advisor action is used, so that you can only use one advisor action every 5 months.
 // let's just put all of the timers here...
 // most party affairs and government affairs cards are on a timer.
-Q.timers = ['advisor_action', 'confronting_nazis', 'crisis_program',
-            'fundraising', 'ideology',
+Q.timers = [// inter
+            'shaping_budget', 'confront', 'scidep_action',
+            'ethics', 'inmate',
             'inter_party_relationships', 'international_relations',
             'iron_front', 'media', 'enemies',
             'party_organizations', 'rally', 'reichsbanner',
@@ -534,12 +535,12 @@ Q.timers = ['advisor_action', 'confronting_nazis', 'crisis_program',
             'high_inflation', 'banking_crisis', 'march_on_berlin',
             'understanding_enemy', 'schleichers_schemes',
             'hindenburg_dismissal'];
-Q.advisor_action_timer = 0;
-// party affairs timers
-Q.confronting_nazis_timer = 0;
-Q.crisis_program_timer = 0;
-Q.fundraising_timer = 0;
-Q.ideology_timer = 0;
+Q.scidep_action_timer = 0;
+// inter affairs timers
+Q.shaping_budget_timer = 0;
+Q.confront_timer = 0;
+Q.inmate_timer = 0;
+Q.ethics_timer = 0;
 Q.inter_party_relationships_timer = 0;
 Q.international_relations_timer = 0;
 Q.iron_front_timer = 0;

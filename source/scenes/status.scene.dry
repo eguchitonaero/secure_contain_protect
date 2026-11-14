@@ -118,9 +118,12 @@ Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
 = Scientific Department
 
 Members:
+
 Loyalty:
+
 Research:
-Funding: [? scidep_funds : funding ?]
+
+Funding: 
 
 @goals
 

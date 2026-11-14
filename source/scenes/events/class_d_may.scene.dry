@@ -9,15 +9,17 @@ The current class-ds have been quite problematic during testing, and is putting 
 
 Since their term is now over, we have the choice to release the class-ds that have been causing problems to our personnels.
 
-- @no: We're going to need the most hands that we can right now.
 - @release: Release the problematic class-ds.
 - @eradicate: Kill the problematic class-ds.
+- @no: We're going to need the most hands that we can right now.
 
 @no
 subtitle: Our personnels may not like this...
 
 @release
 subtitle: -1 resources
+unavailable-subtitle: Not enough resources.
+choose-if: resources >= 1
 on-arrival: class_d -= 2; class_d_strength -= 0.07; class_d_riot -= 0.1
 
 @eradicate

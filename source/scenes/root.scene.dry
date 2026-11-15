@@ -65,6 +65,7 @@ Q.dissent_percent = 5;
 // foundation
 Q.exposure = 0;
 Q.scidep_funds = 0;
+Q.antimeme_funds = 0;
 
 // foundation personnel
 Q.researchers = 0.5;

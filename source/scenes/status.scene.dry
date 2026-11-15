@@ -1,3 +1,17 @@
+{!<style>
+@font-face {
+  font-family: 'SCPfont';
+  src: url('fonts/Sans-Normalcy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font {
+    font-family: 'SCPfont';
+}
+</style>!}
+
 title: Status
 new-page: true
 is-special: true
@@ -17,7 +31,7 @@ if (Q.economic_growth) {
 }
 !}
 
-= Status
+= {!<span class="font">Status</span>!}
 
 [+ half : half +] half of [+ month : month +] [+ year +]
 

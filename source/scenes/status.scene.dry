@@ -17,7 +17,7 @@ if (Q.economic_growth) {
 }
 !}
 
-= {!<span class="scpfont">Status</span>!}
+= {!<b><span class="scpfont">Status</span></b>!}
 
 [+ half : half +] half of [+ month : month +] [+ year +]
 

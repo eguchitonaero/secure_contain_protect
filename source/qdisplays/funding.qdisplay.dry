@@ -1,7 +1,7 @@
 
-(..0) Lacking
+(..0) None
 (1..1) Decrepit
 (2..2) Substandard
-(3..3) Adequate
-(4..4) Sufficient
-(5..) Generous
+(3..4) Adequate
+(5..8) Sufficient
+(9..) Generous

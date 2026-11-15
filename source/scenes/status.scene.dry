@@ -125,7 +125,7 @@ Research:
 
 Funding: [+ scidep_funds : funding +]
 
-[? if antimeme_seen = 1 : :Insert niche/useless department name here: Funding: [+ antimeme_funds : funding +] ?]
+[? if antimeme_division_seen = 1 : :Insert niche/useless department name here: Funding: [+ antimeme_funds : funding +] ?]
 
 @goals
 

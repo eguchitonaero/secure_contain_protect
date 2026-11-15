@@ -17,7 +17,7 @@ if (Q.economic_growth) {
 }
 !}
 
-= {!<b><span class="scpfont">Status</span></b>!}
+= {!<span class="scpfont">Status</span>!}
 
 [+ half : half +] half of [+ month : month +] [+ year +]
 
@@ -27,13 +27,13 @@ Resources available: [+ resources +]
 
 Foundation funding: [+ funds +]
 
-= Class-D
+= {!<span class="scpfont">Class-D</span>!}
 
 Class-D: [+ class_d_2 +]k
 
 Class-D status: [+ class_d_riot : class_d_riot +]
 
-= Ethics Committee
+= {!<span class="scpfont">Ethics Committee</span>!}
 
 Ethics Committee: [+ ethics_committee_relation : relationships +]
 
@@ -115,7 +115,7 @@ Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
 
 @internal
 
-= Scientific Department
+= {!<span class="scpfont">Scientific Department</span>!}
 
 Members:
 
@@ -129,6 +129,6 @@ Funding: [+ scidep_funds : funding +]
 
 @goals
 
-= Goals
+= {!<span class="scpfont">Goals</span>!}
 
 America : 0-1 : Brazil

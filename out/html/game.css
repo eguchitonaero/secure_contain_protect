@@ -6,6 +6,10 @@
   font-display: swap;
 }
 
+.scpfont {
+    font-family: 'SCPfont'
+}
+
 body {
   --bg-color: #f3f3e3;
   --border-color: #000;

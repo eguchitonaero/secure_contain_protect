@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Secure Contain Protect
+= <span class="scpfont";>Secure Contain Protect</span>
 
 @start_menu_2
 

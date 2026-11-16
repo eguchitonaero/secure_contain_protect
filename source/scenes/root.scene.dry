@@ -7,6 +7,7 @@ new-page: true
 go-to: start_menu_2
 
 = <span class="scpfont";>Secure Contain Protect</span>
+test text
 
 @start_menu_2
 

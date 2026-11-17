@@ -24,7 +24,7 @@ body {
   --tab-hover-color: #ececec;
   --card-border-color: #ccc; 
   --card-bg-color: #ddd; 
-  font-family: Verdana, Georgia, serif;
+  font-family: Verdana, Geneva, sans-serif;
   background-color: var(--bg-color);
   padding: 0;
   line-height: 155%;
@@ -164,8 +164,9 @@ ul.choices li {
   padding: 0.5em;
 }
 ul.choices li div.subtitle {
+  font-family: "Courier New", Courier, monospace;
   margin-left: 2em;
-  font-style: italic;
+  font-style: a;
 }
 ul.choices li.unavailable {
   color: var(--unavailable-color);

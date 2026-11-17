@@ -393,6 +393,7 @@ div.blank-card {
 }
 
 .card-caption {
+  font-family: "SCPfont", Georgia, serif;
   text-align: center;
   display: block;
   font-size: 1em;

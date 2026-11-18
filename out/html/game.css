@@ -75,6 +75,7 @@ footer a {
   padding-right: 1em;
 }
 header {
+  font-family: SCPfont;
   text-align: right
 }
 #header-links {
@@ -415,7 +416,7 @@ div.blank-card {
 
 .card-img {
   height: 150px;
-  width: 120px;
+  width: 150px;
   object-fit: cover;
 }
 

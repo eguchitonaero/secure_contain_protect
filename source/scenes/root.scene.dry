@@ -92,6 +92,7 @@ Q.ci_raid = 3;
 // relations
 Q.ethics_committee_relation = 70;
 Q.council_relation = 50;
+Q.ethics_hate = 0;
 
 // events
 Q.goc_formed = 0;
@@ -520,6 +521,8 @@ Q.n_advisors = 3;
 Q.timers = [// inter
             'shaping_budget', 'confront', 'scidep_action',
             'ethics', 'inmate',
+            // events
+            'hate',
             'inter_party_relationships', 'international_relations',
             'iron_front', 'media', 'enemies',
             'party_organizations', 'rally', 'reichsbanner',
@@ -593,6 +596,7 @@ Q.sh_ban_timer = 0;
 Q.kpd_ultimatum_timer = 0;
 Q.march_on_berlin_timer = 0;
 Q.hindenburg_dismissal_timer = 0;
+Q.hate_timer = 0;
 
 
 // all the initial advisors are centrists.

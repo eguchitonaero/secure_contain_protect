@@ -132,6 +132,7 @@ header h2:before {
   margin-top: 0.5em;
 }
 #content h1 {
+  font-family: SCPfont;
   margin: 2em 0 1em 0;
   font-size: 1.35em;
   font-weight: normal;

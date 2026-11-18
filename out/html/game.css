@@ -7,7 +7,12 @@
 }
 
 .scpfont {
-    font-family: 'SCPfont'
+  font-family: 'SCPfont'
+}
+
+.vertical-line {
+  border-left: 4px solid #970100;
+  padding-left: 12px;
 }
 
 body {

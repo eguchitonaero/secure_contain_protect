@@ -1,6 +1,6 @@
 title: The Ethics Committee sends a message
 subtitle: Our misconduct has not gone unnoticed.
-on-arrival: ethics_hate += 1, hate_timer += 4
+on-arrival: ethics_hate += 1; hate_timer += 4
 tags: event
 view-if: ethics_committee_relation < 40 and ethics_hate = 0
 priority: -1

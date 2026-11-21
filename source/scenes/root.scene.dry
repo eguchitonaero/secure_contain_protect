@@ -55,7 +55,7 @@ Q.hindenburg_enabled = 0;
 
 
 // money
-Q.resources = 8;
+Q.resources = 3;
 Q.funds = 5
 // income
 Q.income = 5;

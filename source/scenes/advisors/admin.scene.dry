@@ -15,4 +15,4 @@ Is this even canon?
 on-arrival: month += 2
 
 @advance2
-on-arrival: month += 100
+on-arrival: month = 13; half = 3

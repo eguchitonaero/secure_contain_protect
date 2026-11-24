@@ -110,7 +110,7 @@ if (Q.actions >= 1) {
             if (Q.month >= 13) {
                 Q.month = 1;
                 Q.year += 1;
-                Q.resources += Q.income;
+                Q.resources = Q.resources + Q.income;
                 Q.funds += Q.funds_income;
             }
         }

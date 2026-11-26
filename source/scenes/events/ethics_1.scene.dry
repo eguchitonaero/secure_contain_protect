@@ -6,5 +6,5 @@ view-if: ethics_committee_relation < 40 and ethics_hate = 0
 priority: -1
 max-visits: 1
 
-<span class="vertical-line;">The Ethics Committee has issued a warning regarding our misconduct, thread carefully.</span>
+<span class="vertical-line;">The Ethics Committee has issued a warning regarding our misconduct, continued misconduct will be met with appropriate disciplinary measures, up to and including termination.</span>
   

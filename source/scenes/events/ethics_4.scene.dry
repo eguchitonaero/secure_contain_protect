@@ -1,0 +1,10 @@
+title: The Ethics Committee sends a message
+subtitle: Our corrective measures have pleased them.
+on-arrival: ethics_hate -= 1
+tags: event
+view-if: ethics_hate = 1 and ethics_committee_relation >= 75
+priority: -1
+
+The Ethics Committee advice us to not violate the code of ethics again.
+  
+  

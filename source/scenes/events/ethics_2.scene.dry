@@ -1,0 +1,12 @@
+title: Reduced funding
+subtitle: The 05 Council has slashed our funding.
+on-arrival: ethics_hate += 1; funds_income -= 1; hate_timer += 2
+tags: event
+view-if: ethics_hate >= 1 and ethics_committee_relation < 40 and hate_timer = 0
+priority: -1
+
+Our continued misconduct has again led the Committee to inform the Council about it.
+
+The 05 Council is continuously displeased, our funds have been cut off until we provide justification and enforce stricter conduct in our facilities.
+
+The 05 warns that continued misconduct will lead to the termination of your tenure.

@@ -700,7 +700,7 @@ view-if: resources >= 1000
 go-to: custom_difficulty
 
 @1928_main
-audio: shuffle music/clair_de_lune.mp3
+audio: shuffle music/gymnopedie.mp3 music/clair_de_lune.mp3
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
 

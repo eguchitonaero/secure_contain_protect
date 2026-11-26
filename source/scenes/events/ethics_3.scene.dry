@@ -1,11 +1,11 @@
 title: Restored fundings.
-subtitle: [? if ethics_hate = 2 : The O5 has restored our funds. ?][? if ethics_hate >= 3 : The O5 is restoring our funding. ?]
+subtitle: [? if ethics_hate = 2 : The O5 has restored our funding. ?][? if ethics_hate >= 3 : The O5 is restoring our funding. ?]
 on-arrival: ethics_timer += 2
-on-departure: funding += 1; ethics_hate -= 1
+on-departure: funds_income += 1; ethics_hate -= 1; funds += 0.5
 tags: event
 view-if: ethics_hate >= 2 and ethics_committee_relation >= 75
 priority: -1
 
 The Ethics Committee has seen our corrective measures and are pleased.
 
-They have informed the Council about us and the Council have decided to restore our funds bit by bit.
+They have informed the Council about us and the Council have decided to restore our funding and increase our current funds bit by bit.

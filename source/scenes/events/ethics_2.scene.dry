@@ -1,6 +1,6 @@
 title: Reduced funding
 subtitle: The 05 Council has slashed our funding.
-on-arrival: ethics_hate += 1; funds_income -= 1; hate_timer += 2
+on-arrival: ethics_hate += 1; funds_income -= 1; hate_timer += 2; funds -= 1
 tags: event
 view-if: ethics_hate >= 1 and ethics_committee_relation < 40 and hate_timer = 0
 priority: -1

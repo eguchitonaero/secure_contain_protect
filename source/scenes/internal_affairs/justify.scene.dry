@@ -4,7 +4,7 @@ view-if: ethics_timer = 0 and ethics_committee_relation <= 60
 on-arrival: actions += 1; ethics_timer += 6
 is-card: true
 card-image: img/documents.jpg
-tags: inter_affairs
+tags: internal_affairs
 
 = Justifying our actions
 

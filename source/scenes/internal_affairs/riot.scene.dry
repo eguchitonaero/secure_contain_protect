@@ -4,7 +4,7 @@ view-if: class_d_riot >= 0.60 and confront_timer = 0
 on-arrival: actions += 1; confront_timer += 2
 is-card: true
 card-image: img/cert.jpg
-tags: inter_affairs
+tags: internal_affairs
 
 = Confronting Class-Ds
 

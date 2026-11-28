@@ -4,7 +4,7 @@ is-card: true
 card-image: img/financediv.webp
 view-if: shaping_budget_timer <= 0
 on-arrival: actions += 1; shaping_budget_timer += 12
-tags: inter_affairs
+tags: internal_affairs
 
 = Shaping the Budget
 

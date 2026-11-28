@@ -14,8 +14,8 @@ max-cards: 3
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-- @inter
-- @paramilitary
+- @internal
+- @external
 - #advisor
 - @shuffle_leadership_pinned
 
@@ -35,22 +35,22 @@ max-cards: 4
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-- @inter
-- @paramilitary
+- @internal
+- @external
 - #advisor
 - @shuffle_leadership_pinned
 
 
-@inter
+@internal
 title: Internal Affairs
 card-image: img/scp.png
 is-deck: true
 
-- #inter_affairs
+- #internal_affairs
 
-@paramilitary
-title: Paramilitary Affairs
-card-image: img/mtf.webp
+@external
+title: External Affairs
+card-image: img/scpout.jpeg
 is-deck: true
 
-- #paramilitary_affairs
+- #external_affairs
